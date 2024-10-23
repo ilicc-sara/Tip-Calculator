@@ -18,7 +18,7 @@ button.addEventListener("click", function () {
   const total =
     inputBill.value * (inputPercent.value / 100) + Number(inputBill.value);
 
-  console.log(total);
+  // console.log(total);
 
-  document.querySelector(".total").textContent = total;
+  document.querySelector(".total").textContent = total.toFixed(2);
 });
